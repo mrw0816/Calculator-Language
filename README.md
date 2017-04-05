@@ -34,15 +34,21 @@ statement -> NEWLINE          (newline)
     BIFN = built in function( sqrt, cos, sin )
 
 E -> T
+
 E -> T + E | T - E
 
 T -> F
+
 T -> F * T | F / T
 
-F -> N          
-F -> V          
+F -> N 
+
+F -> V 
+
 F -> (E)
+
 F -> - F
+
 F -> BIFN ( E )
 
 ------------------
