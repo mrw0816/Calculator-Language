@@ -59,7 +59,9 @@ w = sin( angle )
 show x+y
 
 z = -z
+
 newline
+
 msg "good bye"
 
 
