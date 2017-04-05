@@ -1,0 +1,12 @@
+x=3
+y=5
+z=x+y*7
+msg "z = " show z
+newline
+input "angle = " angle
+show angle newline
+w = sin( (angle) )
+msg "w = " show w newline
+z = -z
+msg "ok: " show z newline
+msg "abs: " show ((z)) newline

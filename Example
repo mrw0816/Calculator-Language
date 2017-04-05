@@ -1,0 +1,8 @@
+input "a= " a
+input "b= " b
+c = sqrt( a*a + b*b )
+msg "triangle with sides "  show a
+msg " and " show b
+msg " has hyp = " show c
+newline
+msg "bye"
