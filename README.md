@@ -34,8 +34,8 @@ E -> T + E | T - E
 T -> F
 T -> F * T | F / T
 
-F -> N          (from lexical phase:  number)
-F -> V          (from lexical phase:  variable)
+F -> N          
+F -> V          
 F -> (E)
 F -> - F
 F -> BIFN ( E )
@@ -44,14 +44,14 @@ F -> BIFN ( E )
 
 Examples of CalcLang Code
 
-x=3
-y=5
-z=x+y*7
-show z
-angle = 3.14
-w = sin( angle )
-show x+y 
-z = -z
+x=3 
+y=5 
+z=x+y*7 
+show z 
+angle = 3.14 
+w = sin( angle ) 
+show x+y  
+z = -z 
 
 ---------------------
 input "a= " a
