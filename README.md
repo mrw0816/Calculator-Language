@@ -8,16 +8,21 @@ Kinds of tokens are:
   various single-symbol tokens represent themselves:   + - * / = ( )  
 
 ---------------------
-Context free grammar:  (E = <expression>) 
+Context free grammar:  (E = expression) 
 
-<statements> -> <statement>
-<statements> -> <statement> <statements>
+statements -> statement
 
-<statement> -> V = E
-<statement> -> SHOW E           (show)
-<statement> -> MESSAGE STRING   (keyword is "msg")
-<statement> -> INPUT STRING V      (STRING is the token for a "whatever")
-<statement> -> NEWLINE          (newline)
+statements -> statement statements
+
+statement -> V = E
+
+statement -> SHOW E           (show)
+
+statement -> MESSAGE STRING   (keyword is "msg")
+
+statement -> INPUT STRING V      (STRING is the token for a "whatever")
+
+statement -> NEWLINE          (newline)
 
     (use E instead of <expression>, etc.)
     
