@@ -44,24 +44,22 @@ F -> BIFN ( E )
 
 Examples of CalcLang Code
 
-x=3 
-y=5 
-z=x+y*7 
-show z 
-angle = 3.14 
-w = sin( angle ) 
-show x+y  
-z = -z 
+x=3
 
----------------------
-input "a= " a
-input "b= " b
-c = sqrt( a*a + b*b )
-msg "triangle with sides "  show a
-msg " and " show b
-msg "has hyp = " show c
+y=5
+
+z=x+y*7
+
+show z
+
+input "angle = " angle
+
+w = sin( angle )
+
+show x+y
+
+z = -z
 newline
-msg "bye"
----------------------
-input "enter angle: " angle
-msg "cos is " show cos(angle)
+msg "good bye"
+
+
